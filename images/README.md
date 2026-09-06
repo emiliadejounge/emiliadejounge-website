@@ -8,11 +8,6 @@ names below and they'll appear automatically (no code changes needed).
 |---|---|---|
 | `hero.jpg` | Full-screen photo behind your name | Wide, landscape (e.g. 2400×1600) |
 | `portrait.jpg` | Photo next to the About text | Portrait, 4:5 (e.g. 1600×2000) |
-| `gallery-1.jpg` | Creative gallery (wide tile) | Landscape, wide (e.g. 1600×900) |
-| `gallery-2.jpg` | Creative gallery | Square or portrait |
-| `gallery-3.jpg` | Creative gallery | Square or portrait |
-| `gallery-4.jpg` | Creative gallery | Square or portrait |
-| `gallery-5.jpg` | Creative gallery (wide tile) | Landscape, wide |
 | `interest-skiing.jpg` | Skiing tile | Landscape, 4:3 |
 | `interest-hiking.jpg` | Hiking tile | Landscape, 4:3 |
 | `interest-sports.jpg` | Women's sports tile | Landscape, 4:3 |
@@ -25,8 +20,6 @@ Tips:
   and update the matching `url(...)` in `index.html` if you use `.webp`).
 - Keep files under ~500KB each if you can (export at "web quality" ~80%) so
   the site stays fast.
-- The gallery is your own cinematography/photography — swap in real frames
-  whenever you have them.
 
 ## Company logos (`logos/` folder)
 
