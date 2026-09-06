@@ -334,47 +334,9 @@ img, .role-media, .interest-photo, .hero-photo {
   margin: -20px 0 48px;
 }
 
-.ig-label { margin-bottom: 16px; }
-
-.ig-links {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  margin-bottom: 56px;
-}
-.ig-link-card {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 28px;
-  background: var(--dark-card);
-  border: 1px solid rgba(246,241,233,.1);
-  border-radius: var(--radius);
-  text-decoration: none;
-  transition: border-color .2s ease, transform .2s ease;
-}
-.ig-link-card:hover { border-color: var(--accent-2); transform: translateY(-3px); }
-.ig-link-type {
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--accent-2);
-}
-.ig-link-cta {
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--cream);
-}
-
-@media (max-width: 760px) {
-  .ig-links { grid-template-columns: 1fr; max-width: 400px; margin-left: auto; margin-right: auto; }
-}
-
 .media-cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 .media-card {
