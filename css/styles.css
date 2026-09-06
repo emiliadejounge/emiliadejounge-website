@@ -228,7 +228,6 @@ img, .role-media, .interest-photo, .hero-photo {
 /* ---------- About ---------- */
 .about { padding: 120px 0; }
 .about-text {
-  max-width: 720px;
   margin: 0 0 56px;
 }
 .about-row {
