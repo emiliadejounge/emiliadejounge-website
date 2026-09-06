@@ -336,7 +336,7 @@ img, .role-media, .interest-photo, .hero-photo {
 
 .media-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 .media-card {
@@ -350,6 +350,12 @@ img, .role-media, .interest-photo, .hero-photo {
   transition: border-color .2s ease, transform .2s ease;
 }
 .media-card:hover { border-color: var(--accent-2); transform: translateY(-3px); }
+.media-card-soon {
+  border-style: dashed;
+  opacity: .6;
+}
+.media-card-soon:hover { border-color: rgba(246,241,233,.1); transform: none; }
+.media-card-soon .media-link { color: #cfc8b8; font-weight: 500; }
 .media-label {
   display: inline-block;
   font-size: 12px;
